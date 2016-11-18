@@ -23,12 +23,6 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="Client" />
-      </profile>
-      <profile default="false" name="Annotation profile for JCoinche" enabled="true">
-        <sourceOutputDir name="../Client/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../Client/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
         <module name="Server" />
       </profile>
     </annotationProcessing>
